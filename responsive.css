@@ -1,0 +1,265 @@
+/* Home */
+
+@media screen and (max-width: 850px) {
+  nav {
+    padding: 15px 20px;
+  }
+
+  nav img {
+    width: 130px;
+  }
+
+  #menu-btn {
+    display: initial;
+  }
+
+  #menu-close {
+    display: initial;
+    font-size: 1.4rem;
+    color: #fff;
+    padding: 30px 0 20px 20px;
+  }
+
+  nav .navigation ul {
+    position: absolute;
+    top: 0;
+    right: -220px;
+    width: 220px;
+    background-color: #5c2222ae;
+    backdrop-filter: blur(3px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    transition: 0.3s ease-in;
+  }
+
+  nav .navigation ul.active {
+    right: 0;
+  }
+
+  nav .navigation ul li {
+    padding: 20px 0 10px 40px;
+    margin-left: 0;
+  }
+
+  nav .navigation ul li a {
+    color: #fff;
+  }
+
+  #home {
+    padding-top: 0;
+  }
+  #home p {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #home p {
+    font-size: 1.2rem;
+  }
+
+  #course {
+    padding: 8vw 4vw 0 4vw;
+  }
+
+  .registration {
+    padding: 6vw 4vw 6vw 4vw;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .registration .reminder .time {
+    margin: 20px 0;
+  }
+
+  .registration .form {
+    width: 30rem;
+  }
+
+  .footer .newsletter {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .subscribe {
+    height: 50px;
+    justify-content: flex-end;
+    gap: 1rem;
+  }
+
+  /* course-inner */
+
+  .course-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 8vw 4vw;
+  }
+
+  .course-inner .overview {
+    width: 100%;
+  }
+
+  .course-inner .overview .course-img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .course-inner .enroll {
+    margin-top: 25px;
+  }
+}
+
+/* About */
+
+@media screen and (max-width: 769px) {
+  .about-container {
+    padding: 8vw 4vw 2vw 4vw;
+  }
+
+  .about-container .about-img {
+    padding-right: 30px;
+  }
+
+  .about-container .about-img img {
+    height: 100%;
+  }
+
+  .about-container .about-text h2 {
+    font-size: 1.4rem;
+    padding-bottom: 5px;
+  }
+
+  .trust .trust-img {
+    margin-top: 40px;
+  }
+
+  .trust .trust-img img {
+    width: 70px;
+  }
+
+  /* blogs */
+  .blog-container {
+    padding: 8vw 4vw;
+  }
+
+  /* blog-post */
+
+  .blog-container {
+    padding: 8vw 4vw;
+  }
+
+  .blog-container .blog-post {
+    width: 100%;
+    margin-top: 80px;
+  }
+
+  .blog-container .blog-post .post img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+  }
+
+  .contact {
+    padding: 8vw 4vw;
+  }
+
+  .contact .getin {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .about-container {
+    flex-direction: column-reverse;
+  }
+  .about-container .about-img {
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .about-container .about-text {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+
+  .trust .trust-img {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .trust .trust-img img {
+    width: 60px;
+    margin: 10px 15px;
+  }
+
+  /* blogs  */
+  .blog-container {
+    flex-direction: column;
+  }
+
+  .blog-container .blogs {
+    width: 100%;
+  }
+
+  .blog-container .cate {
+    width: 100%;
+  }
+
+  .footer .newsletter {
+    display: none;
+  }
+
+  .copyright .pro-links {
+    margin-top: 10px;
+  }
+
+  .course-inner .overview .course-head .c-name {
+    width: 50%;
+  }
+
+  .course-inner .overview .course-head .c-name h2 {
+    font-size: 22px;
+  }
+
+  .course-inner .overview .course-head span {
+    font-size: 22px;
+  }
+
+  .course-inner .enroll {
+    width: 100%;
+  }
+
+  /* contact */
+  .contact {
+    padding: 8vw 4vw;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .contact .getin {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .contact .form {
+    width: 100%;
+    padding: 40px 30px;
+  }
+
+  .contact .form .form-row {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .contact .form .form-row input {
+    width: 100%;
+  }
+}
